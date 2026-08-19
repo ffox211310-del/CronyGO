@@ -1,2 +1,2 @@
-# CronyGO-ai
+# CronyGO AI
 高性能スマホを前提とした、モデルダウンロード型のAI
