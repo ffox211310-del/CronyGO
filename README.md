@@ -1,5 +1,5 @@
 # CronyGO AI
-<img width="500" height="500" alt="CronyGOicon" src="https://github.com/user-attachments/assets/0f261b9a-57b6-458f-a9b6-1e5b13b82ce8" />
+<img width="500" height="550" alt="CronyGOicon" src="https://github.com/user-attachments/assets/0f261b9a-57b6-458f-a9b6-1e5b13b82ce8" />
 モデルをダウンロードすることで、完全オフラインで動作するAIプラットフォーム。たとえ宇宙でも、端末が動く限りあなたのそばに居続けます。
 
 特徴
