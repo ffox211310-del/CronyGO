@@ -35,11 +35,14 @@
         <div class="model-meta">WebGPU 対応時は自動で使用 / 非対応時は WASM にフォールバック</div>
       </div>
       <div class="box-row">
-        <div class="row-label">モデル選択</div>
+       <div class="row-label">モデル選択</div>
+        
         <select id="model-select">
-          <option value="Xenova/distilgpt2">Xenova/distilgpt2 — 約82Mパラメータ（最軽量・推奨）</option>
-          <option value="Xenova/gpt2">Xenova/gpt2 — 約124Mパラメータ</option>
-        </select>
+  <option value="onnx-community/Qwen2.5-0.5B-Instruct">
+    Qwen2.5-0.5B-Instruct — 約0.5Bパラメータ（日本語・チャット向け）
+  </option>
+</select>
+        
         <div class="model-meta" id="engine-status">未ロード。「モデルをダウンロード」を押すと開始します。</div>
         <div class="progress-wrap" id="progress-wrap" style="display:none;">
           <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
