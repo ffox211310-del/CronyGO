@@ -65,7 +65,7 @@ loadBtn.addEventListener('click', async ()=>{
 
   try{
     generator = await pipeline('text-generation', modelId, {
-      dtype: 'q8',
+      dtype: 'q4',
       progress_callback: (p)=>{
         if(p.status === 'progress'){
           const pct = Math.round(p.progress || 0);
