@@ -104,11 +104,21 @@ loadBtn.addEventListener('click', async ()=>{
 
     setTimeout(()=> setNetLive(false, '通信なし'), 800);
 
+    
   }catch(err){
-    engineStatus.textContent = 'エラー: ' + (err?.message || err);
+    console.error('MODEL LOAD ERROR:', err);
+    console.error('ERROR OBJECT:', err);
+    console.error('ERROR STACK:', err?.stack);
+
+    engineStatus.textContent =
+        'エラー: ' +
+        (err?.message || String(err));
+
     loadBtn.disabled = false;
     setNetLive(false, 'エラー');
-  }
+}
+
+  
   downloading = false;
 });
 
