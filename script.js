@@ -1,4 +1,4 @@
-import { pipeline, TextStreamer } from 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.0.0';
+import { pipeline, TextStreamer } from 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1';
 
 const netstatEl = document.getElementById('netstat');
 const netstatText = document.getElementById('netstat-text');
